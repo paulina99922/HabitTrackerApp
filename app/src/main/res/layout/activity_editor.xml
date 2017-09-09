@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/activitymaineditorlayout"
+    tools:context=".EditorActivity">
+
+    <LinearLayout
+        style="@style/activityeditorlayout">
+
+        <TextView
+            style="@style/categorystyle"
+            android:text="@string/information"/>
+
+        <LinearLayout
+            style="@style/edittextstyle">
+
+            <EditText
+                android:id="@+id/edit_name"
+                style="@style/textstyle"
+                android:hint="@string/edit_name"
+                android:inputType="textCapWords"/>
+
+            <EditText
+                android:id="@+id/edit_exercise"
+                style="@style/editorstyle"
+                android:hint="@string/edit_exercise"
+                android:inputType="textCapWords"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_duration"
+        style="@style/durationlayout">
+
+        <TextView
+            style="@style/categorystyle"
+            android:text="@string/category_duration"/>
+
+        <LinearLayout
+            style="@style/spinnerlayout">
+
+            <Spinner
+                android:id="@+id/spinner_duration"
+                style="@style/spinnerstyle"
+                android:spinnerMode="dropdown"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

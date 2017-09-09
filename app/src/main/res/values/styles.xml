@@ -1,0 +1,147 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme"
+           parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">
+            @color/colorPrimaryDark
+        </item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="EditorTheme"
+           parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">
+            @color/colorPrimaryDark
+        </item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="activitymaineditorlayout">
+        <item name="android:layout_width">match_parent
+        </item>
+        <item name="android:layout_height">match_parent
+        </item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/color2</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+
+    <style name="activitycataloglayout">
+        <item name="android:layout_width">match_parent
+        </item>
+        <item name="android:layout_height">match_parent
+        </item>
+        <item name="android:background">@color/color2</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+
+    <style name="activityeditorlayout">
+        <item name="android:layout_height">wrap_content
+        </item>
+        <item name="android:layout_width">match_parent
+        </item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="floatingactionbutton">
+        <item name="android:layout_width">wrap_content
+        </item>
+        <item name="android:layout_height">wrap_content
+        </item>
+        <item name="android:layout_alignParentBottom">true
+        </item>
+        <item name="android:layout_alignParentRight">true
+        </item>
+        <item name="android:layout_alignParentEnd">true
+        </item>
+        <item name="android:layout_marginRight">60dp</item>
+        <item name="android:layout_marginEnd">60dp</item>
+        <item name="android:layout_marginBottom">60dp</item>
+    </style>
+
+    <style name="categorystyle">
+        <item name="android:layout_height">wrap_content
+        </item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingTop">18dp</item>
+        <item name="android:textColor">@color/color1</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="editorstyle">
+        <item name="android:layout_height">wrap_content
+        </item>
+        <item name="android:layout_width">match_parent
+        </item>
+        <item name="android:textColor">@color/color1</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="textstyle">
+        <item name="android:layout_height">wrap_content
+        </item>
+        <item name="android:layout_width">wrap_content
+        </item>
+        <item name="android:layout_alignParentRight">true
+        </item>
+        <item name="android:textColor">@color/color1</item>
+        <item name="android:paddingRight">18dp</item>
+        <item name="android:paddingTop">18dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+    <style name="edittextstyle">
+        <item name="android:layout_height">wrap_content
+        </item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:textColor">@color/color1</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="durationlayout">
+        <item name="android:layout_height">wrap_content
+        </item>
+        <item name="android:layout_width">match_parent
+        </item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="spinnerlayout">
+        <item name="android:layout_height">wrap_content
+        </item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+
+    <style name="activitycatalogtextstyle">
+        <item name="android:layout_height">match_parent
+        </item>
+        <item name="android:layout_width">match_parent
+        </item>
+        <item name="android:textColor">@color/color1</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+    <style name="spinnerstyle">
+        <item name="android:layout_height">54dp</item>
+        <item name="android:layout_width">wrap_content
+        </item>
+        <item name="android:paddingRight">18dp</item>
+    </style>
+</resources>

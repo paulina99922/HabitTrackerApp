@@ -1,0 +1,14 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".CatalogActivity">
+    <item
+        android:id="@+id/insert_dummy_data"
+        android:title="@string/insert_dummy_data"
+        app:showAsAction="never"/>
+</menu>

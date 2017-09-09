@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Habit Tracker</string>
+
+    <string name="insert_dummy_data">Insert Dummy
+        Data</string>
+
+    <string name="editor_activity_title_new_entry">Add an
+        entry </string>
+
+    <string name="save">SAVE</string>
+
+    <string name="information">Insert your name, the
+        kind of exercise you had and select its
+        duration :)</string>
+
+    <string name="category_duration">Exercise duration
+    </string>
+
+    <string name="edit_name">Name</string>
+
+    <string name="edit_exercise">Exercise type</string>
+
+    <string name="duration_1">0-15 minutes</string>
+
+    <string name="duration_2">15-30 minutes</string>
+
+    <string name="duration_3">30-45 minutes</string>
+
+    <string name="duration_4">45-60 minutes</string>
+
+    <string name="duration_5">1-2 hours</string>
+</resources>
